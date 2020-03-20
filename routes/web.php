@@ -19,9 +19,11 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/p/{post}', 'PostsController@show');
+// The order is matter because of the {post}, it takes everything
+// so thats why I used first create, otherwise I'd get an error
 Route::get('/p/create', 'PostsController@create');
 Route::post('/p', 'PostsController@store');
+Route::get('/p/{post}', 'PostsController@show');
 
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
