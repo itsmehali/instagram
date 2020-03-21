@@ -4,10 +4,10 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="/storage/{{ $user->profile->image }}" class="rounded-circle w-100">
+            <img src="{{ $user->profile->profileImage() }}" class="rounded-circle w-100">
         </div>
         <div class="col-9">
-            <div class="d-flex justify-content-between align-items-baseline">
+            <div class="d-flex justify-content-between align-items-baseline pt-5">
                 <h1>{{ $user->username }}</h1>
 
                 @can('update', $user->profile)
