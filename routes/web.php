@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::post('follow/{user}', );
+Route::post('follow/{user}', 'FollowsController@store' );
 
 // The order is matter because of the {post}, it takes everything
 // so thats why I used first create, otherwise I'd get an error
