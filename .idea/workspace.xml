@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="861c8ade-7ff4-4408-a40f-e67f20a522d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_03_27_125423_creates_profile_user_privot_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/FollowButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/FollowButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +183,8 @@
       <workItem from="1584629581919" duration="4939000" />
       <workItem from="1584712053303" duration="7065000" />
       <workItem from="1584810864465" duration="2046000" />
-      <workItem from="1585080237752" duration="2006000" />
+      <workItem from="1585080237752" duration="2207000" />
+      <workItem from="1585313260190" duration="1715000" />
     </task>
     <servers />
   </component>
@@ -196,10 +203,10 @@
       <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state x="378" y="93" key="#phpunit.xml/0.23.1440.817@0.23.1440.817" timestamp="1585081398741" />
-    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1585082070113">
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1585314854420">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
-    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.23.1440.817@0.23.1440.817" timestamp="1585082070113" />
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.23.1440.817@0.23.1440.817" timestamp="1585314854420" />
     <state x="385" y="165" width="670" height="680" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1584548593151" />
   </component>
 </project>
